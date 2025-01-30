@@ -1,5 +1,4 @@
 <?php
-// Povezivanje sa MySQL bazom
 $host = 'localhost';
 $dbname = 'restoran';
 $username = 'root';
