@@ -1,31 +1,27 @@
-/* Opšti stilovi */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f5e8dc; /* Svetlobraon pozadina */
+    background-color: #f5e8dc;
     margin: 0;
-    padding: 0 20px; /* Razmak od leve i desne ivice */
-    color: #5c4033; /* Tamnobraon slova */
+    padding: 0 20px;
+    color: #5c4033;
 }
 
-/* Kontejner */
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Blaga senka */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Naslov */
 h1 {
     text-align: center;
-    color: #5c4033; /* Tamnobraon */
+    color: #5c4033;
     margin-bottom: 20px;
 }
 
-/* Forma */
 form {
     display: flex;
     flex-direction: column;
@@ -34,7 +30,7 @@ form {
 label {
     margin-bottom: 8px;
     font-weight: bold;
-    color: #5c4033; /* Tamnobraon */
+    color: #5c4033;
 }
 
 input, select, button {
@@ -67,13 +63,11 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Fokus i interakcija */
 input:focus, select:focus, button:focus {
     outline: none;
     border-color: #007BFF;
 }
 
-/* Rezultat */
 .result {
     margin-top: 20px;
     padding: 15px;
@@ -84,7 +78,6 @@ input:focus, select:focus, button:focus {
     font-weight: bold;
 }
 
-/* Checkbox i radio grupe */
 .checkbox-group,
 .radio-group {
     display: flex;
@@ -99,7 +92,6 @@ input:focus, select:focus, button:focus {
     margin-bottom: 5px;
 }
 
-/* Responsivnost */
 @media (max-width: 600px) {
     .container {
         padding: 10px;
@@ -109,32 +101,29 @@ input:focus, select:focus, button:focus {
         padding: 8px;
     }
 }
-/* Box za metod dostave */
+
 .delivery-method-box {
-    border: 2px solid #6F4F37; /* Tamno braon okvir */
+    border: 2px solid #6F4F37;
     padding: 15px;
     display: inline-block;
     margin-right: 20px;
-    width: 45%; /* Dovoljno da stane pored drugog boxa */
+    width: 45%;
 }
 
-/* Box za dodatke */
 .addons-box {
-    border: 2px solid #6F4F37; /* Tamno braon okvir */
+    border: 2px solid #6F4F37;
     padding: 15px;
     display: inline-block;
-    width: 45%; /* Dovoljno da stane pored drugog boxa */
+    width: 45%;
 }
 
-/* Dodajte neki razmak između boxeva i ostatka forme */
 form {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 20px; /* Razmak između boxeva */
+    gap: 20px;
 }
 
-/* Stil za label i input unutar boxeva */
 label {
     font-size: 1rem;
     font-weight: bold;
@@ -144,14 +133,13 @@ input[type="radio"], input[type="checkbox"] {
     margin-right: 5px;
 }
 
-/* Održavanje izgleda na manjim ekranima */
 @media (max-width: 768px) {
     form {
         flex-direction: column;
     }
 
     .delivery-method-box, .addons-box {
-        width: 100%; /* Uzmite celu širinu kada je ekran manji */
+        width: 100%;
         margin-right: 0;
     }
 }
